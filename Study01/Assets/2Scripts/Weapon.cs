@@ -40,7 +40,7 @@ public class Weapon : MonoBehaviour
         trailEffect.enabled = true;
 
         //2
-        yield return new WaitForSeconds(0.3f); // 0.3초 대기
+        yield return new WaitForSeconds(0.5f); // 0.3초 대기
         meleeArea.enabled = false;
 
         //3
